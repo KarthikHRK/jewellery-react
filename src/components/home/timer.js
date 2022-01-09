@@ -16,7 +16,7 @@ export default function Comingsoon() {
 <Fade left>      
 <div className='shadow w-[100%]  ' >
 
-<img src={Image1} height={500}  />
+<img src={Image1} height={490}  />
 
 </div>
 
@@ -28,7 +28,7 @@ export default function Comingsoon() {
 <Fade right> 
 
 <div className= '' style={{ width:'100%',    }}  >
-<div className='h-[290px] 'style={{background:'#530605'}}   >   
+<div className='h-[362px] 'style={{background:'#530605'}}   >   
 
 
 

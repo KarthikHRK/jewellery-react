@@ -22,8 +22,11 @@ export default function Previousshow() {
     console.log(pagedata);
     return (
         <div>
-           {/* <Slider />
-           <Text/> */}
+           <Slider />
+           <br/>
+           <Text imageinfo={pagedata.image} info={pagedata.info} name={pagedata.name}/> 
+           <br/>
+           <Gallery   images={pagedata.images}  name={pagedata.name}     />
         </div>
     )
 }

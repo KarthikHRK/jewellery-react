@@ -29,9 +29,9 @@ chaildnav:[
         },
 
          {
-         path:"/",
+         path:"/upcoming-show",
          title:"Upcoming show",
-         dropdown:true,
+         dropdown:false,
          chaildnav:[]
            },
            {
@@ -42,7 +42,7 @@ chaildnav:[
                 
            }, 
            {
-            path:"/contact",
+            path:"/register",
             title:"Register",
             dropdown:false,
             chaildnav:[]
@@ -55,7 +55,7 @@ chaildnav:[
     
 
 
-<nav style={{display:visible? 'block' :'block',backgroundColor:'white'}} className={`z-10  top-0  w-full   px-4 py-3`}>
+<nav style={{display:visible? 'block' :'block',backgroundColor:'white'}} className={`z-10  top-0  w-full  sticky  px-4 py-3`}>
 
 
 

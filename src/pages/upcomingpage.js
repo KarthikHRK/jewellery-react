@@ -1,5 +1,5 @@
 import React from 'react'
-import Upcomingshow from '../src/components/upcomingshow'
+import Upcomingshow from '../components/upcomingshow'
 
 
 

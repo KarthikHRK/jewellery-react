@@ -1,5 +1,5 @@
 import React from 'react'
-import Register from '../src/components/register'
+import Register from '../components/register'
 
 
 

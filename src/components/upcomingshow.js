@@ -1,9 +1,9 @@
 import React from 'react'
-import image2 from "../../images/bgs10.png"
-import Title from '../Shared/title';
-import image3 from "../../images/nextevents/taj.jpg"
-import image4 from "../../images/bgs234.jpg"
-import image5 from "../../images/nextevents/mysore.jpg"
+import image2 from "../images/bgs10.png"
+import Title from '../shared/title';
+import image3 from "../images/nextevents/taj.jpg"
+import image4 from "../images/bgs234.jpg"
+import image5 from "../images/nextevents/mysore.jpg"
 import Fade from 'react-reveal/Fade';
 
 
@@ -13,7 +13,7 @@ export default function upcoming() {
     return (
         <div>
 
-       <div className='h-96 bg-neutral-700 opacity-90  bg-no-repeat w-full flex justify-center items-center ' style= {{backgroundImage:`url('${image2}')`} } ></div>
+       <div className='h-96 bg-neutral-700   object-cover  opacity-90  bg-no-repeat w-full flex justify-center items-center ' style= {{backgroundImage:`url('${image2}')`} } ></div>
 
 
    
@@ -58,11 +58,6 @@ export default function upcoming() {
 
 </div>
 </div>
-
-       
-
-
-
   </div>
     )
 }

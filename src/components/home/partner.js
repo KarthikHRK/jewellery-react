@@ -48,7 +48,7 @@ export default function Partner() {
 
 <div className=' relative'style={{backgroundColor:'#E5E5E5'}} >
 
-<div className='text-3xl  pl-8  ' style={{color:'#530605'}}>
+<div className='text-3xl  pl-8 ' style={{color:'#530605'}}>
 <Title title="Our partners"/>  
 
 </div>

@@ -1,20 +1,14 @@
 import React from 'react'
-import Gallery from '../src/components/gallery'
+import Gallery from '../components/gallery'
 
 
  
 
 
-export default function Gallery() {
+export default function Gallerypage() {
     return (
         <div>
-
-           
-            <Gallery/>
-
-
-            
-            
+            <Gallery/>   
         </div>
     )
 }
