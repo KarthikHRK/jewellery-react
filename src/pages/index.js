@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-
+import Home from "../components/home"
 
 export default function Index() {
 
@@ -13,7 +13,7 @@ export default function Index() {
   }
 
   return (<div>
-   fgdgfdgf
+   <Home/>
     </div>
 
   )
