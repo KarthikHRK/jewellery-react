@@ -12,7 +12,7 @@ const Form = () => {
 
 <div className= '' style={{ width:'100%',    }}  >
 
-<div className='h-96 bg-neutral-700 opacity-90  bg-no-repeat w-full flex justify-center items-center '    style= {{backgroundImage:`url('${image2}')`} }    >
+<div className='h-96  opacity-90  bg-no-repeat w-full flex justify-center items-center 'style= {{backgroundImage:`url('${image2}')`} }    >
 
 <Fade left>
 <h1 className='text-4xl font-bold  text-yellow-600 ml-8   '>Register to get free pass
@@ -28,11 +28,9 @@ const Form = () => {
 
 <div className=' my-10 col-span-3 ' >
 
-<img src={image1}  />
-
-
-<div className='w-[750px] text-justify my-12'>
-<h1 className='text-3xl pb-3  ' ><Title title="Our Branding"/>  
+<img src={image1} />
+<div className='w-[100%] text-justify my-10' >
+<h1 className='text-3xl pb-3  'style={{color:'#530605'}} ><Title title="Our Branding"/>  
 
 </h1>
 

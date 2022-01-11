@@ -4,31 +4,29 @@ import Image1 from "../../images/bgs8.jpg"
 import Fade from 'react-reveal/Fade';
 import Countdown, {zeroPad} from 'react-countdown';
 import Flip from 'react-reveal/Flip';
-import Spin from 'react-reveal/Spin';
+
 
 
 export default function Comingsoon() {
     return (
 
        
-        <div  className='flex justify-center     '>
+        <div  className='flex justify-between      '>
 
 <Fade left>      
 <div className='shadow w-[100%]  ' >
 
-<img src={Image1} height={490}  />
+<img src={Image1} className='h-[300px] object-cover '  />
 
 </div>
 
 </Fade> 
 
 
-
-
 <Fade right> 
 
-<div className= '' style={{ width:'100%',    }}  >
-<div className='h-[362px] 'style={{background:'#530605'}}   >   
+<div className= 'w-[100%]'   >
+<div className='h-[300px] 'style={{background:'#530605'}}   >   
 
 
 
@@ -49,23 +47,17 @@ export default function Comingsoon() {
     </div>
 
 <hr className='w-20 block mx-auto my-5 border-0 h-1 bg-white rounded'/>
-<Spin>
+
 <div className='flex justify-center gap-5 '>
           
           
-        <span className='p-1  rounded-lg  text-center text-[40px] ' style={{background:'#E1CE8A', color:'#530605'   }}  >{days} <br/> <div className='text-[13px] text-center'>   Days </div> </span>
-        <span className='p-1  rounded-lg  text-center text-[40px] '  style={{background:'#E1CE8A', color:'#530605'   }} >{zeroPad(hours)}<br/> <div className='text-[13px] text-center'>   Hours </div> </span>
-        <span className='p-1  rounded-lg  text-center text-[40px]'  style={{background:'#E1CE8A', color:'#530605'   }} >{minutes}<br/> <div className='text-[13px] text-center'>   Minutes </div> </span>
-        <span className='p-1  rounded-lg  text-center text-[40px]'  style={{background:'#E1CE8A', color:'#530605'   }} >{seconds}<br/> <div className='text-[13px] text-center'>   Seconds </div> </span>
-        
-        
-        
+  <span className='p-1  rounded-lg  text-center text-[40px] ' style={{background:'#E1CE8A', color:'#530605'   }}  >{days} <br/> <div className='text-[13px] text-center'>   Days </div> </span>
+  <span className='p-1  rounded-lg  text-center text-[40px] '  style={{background:'#E1CE8A', color:'#530605'   }} >{zeroPad(hours)}<br/> <div className='text-[13px] text-center'>   Hours </div> </span>
+  <span className='p-1  rounded-lg  text-center text-[40px]'  style={{background:'#E1CE8A', color:'#530605'   }} >{minutes}<br/> <div className='text-[13px] text-center'>   Minutes </div> </span>
+  <span className='p-1  rounded-lg  text-center text-[40px]'  style={{background:'#E1CE8A', color:'#530605'   }} >{seconds}<br/> <div className='text-[13px] text-center'>   Seconds </div> </span>
         
         </div>
-        </Spin>
         
-        
-
 
 <div>
 <Flip>
@@ -75,7 +67,7 @@ export default function Comingsoon() {
         </div>
         
         </div>
-        }}/>,
+        }}/>
 
         </div>
 

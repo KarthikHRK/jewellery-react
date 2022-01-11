@@ -5,15 +5,15 @@ import image3 from "../images/nextevents/taj.jpg"
 import image4 from "../images/bgs234.jpg"
 import image5 from "../images/nextevents/mysore.jpg"
 import Fade from 'react-reveal/Fade';
+import image1 from "../images/bgs14.jpg"
 
 
 
-
-export default function upcoming() {
+export default function Upcoming() {
     return (
         <div>
 
-       <div className='h-96 bg-neutral-700   object-cover  opacity-90  bg-no-repeat w-full flex justify-center items-center ' style= {{backgroundImage:`url('${image2}')`} } ></div>
+       <div className='h-[450px]  w-[100%]    ' style= {{backgroundImage:`url('${image1}')`} } ></div>
 
 
    
@@ -28,7 +28,7 @@ export default function upcoming() {
 
 
 <div className=''>
-<img className='h-44 ' src={image3} width="100%"  alt="<img " />  
+<img className='h-44 ' src={image3} width="100%"  alt="<img"/>  
 </div>
 
 <div className='h-44  flex  justify-center  items-center   w-80' style= {{backgroundImage:`url('${image4}')`} } >
@@ -38,8 +38,6 @@ export default function upcoming() {
             <br/>Raddisan Blu Plaza Hotel Mysuru</p>
 </div>
 </div>
-
-
 
 
 <div className='ml-10'>

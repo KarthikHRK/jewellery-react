@@ -18,7 +18,8 @@ console.log(images);
 
   return (<div className="container mx-auto">
 
-<h1 className='text-2xl mb-1'>{name}</h1>
+<h1 className='text-2xl mb-1' style={{color:'#530605'}}>{name}</h1>
+<br/>
 
 <div className='grid grid-cols-3 gap-2  ' >
 {

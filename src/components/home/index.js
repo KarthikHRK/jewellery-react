@@ -8,8 +8,10 @@ export default function index() {
     return (
         <div>
            <Slider/>
+           
            <Timer/>
            <Recentshow/>
+        
            <Partner/>
         </div>
     )

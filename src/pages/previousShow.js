@@ -17,8 +17,6 @@ export default function Previousshow() {
 
         return item.id === id
     })
-
-
     console.log(pagedata);
     return (
         <div>
@@ -27,6 +25,7 @@ export default function Previousshow() {
            <Text imageinfo={pagedata.image} info={pagedata.info} name={pagedata.name}/> 
            <br/>
            <Gallery   images={pagedata.images}  name={pagedata.name}     />
+           <br/>
         </div>
     )
 }

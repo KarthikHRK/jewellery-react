@@ -48,11 +48,13 @@ export default function Partner() {
 
 <div className=' relative'style={{backgroundColor:'#E5E5E5'}} >
 
+  <br/>
+
 <div className='text-3xl  pl-8 ' style={{color:'#530605'}}>
 <Title title="Our partners"/>  
 
 </div>
-<h1 className='text-sm pl-8  py-6 leading-loose'> Our ultra-luxury private residences include villas, ski chalets and spas,
+<h1 className='text-sm pl-8  pt-2 leading-loose'> Our ultra-luxury private residences include villas, ski chalets and spas,
    as well as a 5-star superior hotel.<br/>
     Each one is chosen for its unique character
     and is designed impeccably in the signature Ultima style.<br/>
@@ -101,7 +103,7 @@ export default function Partner() {
           </Slider>
 
       <div >
-<AiOutlineArrowRight onClick={()=>slider?.current?.slickNext()} className=' bottom-40 right-20 absolute   bg-pink-200  p-4 text-5xl rounded-r-full transform transition duration-500 hover:scale-110 '/>
+<AiOutlineArrowRight onClick={()=>slider?.current?.slickNext()} className=' bottom-40 right-20 absolute bg-pink-200  p-4 text-5xl rounded-r-full transform transition duration-500 hover:scale-110'/>
 </div>
 
 <div>

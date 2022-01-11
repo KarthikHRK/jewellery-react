@@ -10,7 +10,7 @@ import Upcomingshow from './pages/upcomingpage'
 import Navbar from './components/global/navbar'
 import Gallery from "./pages/gallerypage";
 import Register from "./pages/contact";
-
+import Footer from './components/global/footer'
 
 
 function App() {
@@ -25,6 +25,7 @@ function App() {
         <Route path="/register" element={<Register />} /> 
 
     </Routes>
+    <Footer/>
   
     </div>
   );

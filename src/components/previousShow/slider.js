@@ -11,7 +11,6 @@ import image7 from "../../images/bgs22.jpg"
 
 export default function Home() {
 
-  
     const settings = {
       dots: false,
       infinite: true,
@@ -20,6 +19,8 @@ export default function Home() {
       autoplay: true,
       speed: 2000,
       autoplaySpeed: 2000,
+      nextArrow: false,
+      prevArrow: false,
 
     };
 
@@ -28,7 +29,7 @@ export default function Home() {
       
         <div className=" h-screen bg-fixed bg-cover bg-center pb-4" >
 
-<div style={{height:'550px'}}>
+<div>
         <Slider {...settings}>
           <div >
           <img className='h-screen object-cover'  src={image1} width="100%"  />

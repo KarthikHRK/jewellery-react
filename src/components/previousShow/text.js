@@ -8,10 +8,6 @@ import Title from '../../shared/title'
 export default function Text({imageinfo,info,name }) {
     return (
 
-
-
-
-
 <Fade left>
 <div className=' grid grid-cols-2 gap-8 container mx-auto ' >
 
@@ -22,7 +18,7 @@ export default function Text({imageinfo,info,name }) {
 
         <div  className=' flex items-center   p-2  text-justify  text-black '>
 <div>
-        <h2 className='text-2xl mb-1'>{name}</h2>
+        <h2 className='text-2xl mb-1' style={{color:'#530605'}}>{name}</h2>
         <hr className=' border-0 h-1 bg-slate-400'/>
         <br/>
         <p className='text-lg '>{info}</p>
@@ -30,8 +26,7 @@ export default function Text({imageinfo,info,name }) {
              </div>
              </div>
        
-             </Fade>
-        
+             </Fade>   
         
     )
 }

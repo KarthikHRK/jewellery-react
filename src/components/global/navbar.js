@@ -22,7 +22,7 @@ chaildnav:[
 
       {
         path:"/",
-        title:"Previous show",
+        title:"Previous shows",
         dropdown:true,
         chaildnav:data
         
@@ -30,7 +30,7 @@ chaildnav:[
 
          {
          path:"/upcoming-show",
-         title:"Upcoming show",
+         title:"Upcoming shows",
          dropdown:false,
          chaildnav:[]
            },
@@ -72,7 +72,7 @@ chaildnav:[
 </Link>
 </div>
 
-  <div class="sm:flex m-0 text-slate-600  sm:items-center sm:flex-row flex-col sm:justify-center justify-end gap-14 pb-2 text- text-sm  ">
+  <div class="sm:flex m-0 text-slate-600  sm:items-center sm:flex-row flex-col sm:justify-center justify-end gap-14 pb-2  text-[17px]  ">
     {
       navData.map((item,i)=>{
         return <div className='relative' key={i}>
@@ -87,7 +87,7 @@ chaildnav:[
         { item.dropdown && <AiOutlineDown className='text-sm pt-1 font-bold ' />}
    
         </Link>
-        <div style={{width:'500px'}} className={` p-3  absolute top-8 pt-2 z-20 px-4  cursor-pointer rounded  cnav  bg-white text-slate-900`}>
+        <div style={{width:'600px'}} className={` p-3  absolute top-8 pt-3 z-20 px-4  cursor-pointer rounded  cnav  bg-white text-slate-900`}>
 <div className='grid grid-cols-3 gap-x-4'>
           {
           item.chaildnav.map((citem,k)=>{

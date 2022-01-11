@@ -13,7 +13,7 @@ export default function Recentshow() {
 
 
 <div className='text-3xl my-10 hover:text-amber-500 text-center'  style={{color:'#530605'}}>
-<Title title="RECENT EVENTS" />
+<Title title="Recent events" />
 </div>
 
 
@@ -23,30 +23,29 @@ export default function Recentshow() {
           <div  className='text2 shadow-lg rounded-xl overflow-hidden ' >
 
           <img  src={image1} className=' aspect-auto'   />
-
-          <h1 className='px-2 py-1 bg-white'>Mysuru</h1>
-          <p  className='px-2 pb-2 text-xs bg-white'>19, 20 & 21 March 2021 
+          <h1 className='px-2 py-1  bg-white'>Mysuru</h1>
+          <p  className='px-2 pb-2   text-xs bg-white'>19, 20 & 21 March 2021 
             <br/>Raddisan Blu Plaza Hotel Mysuru</p>
 
           </div>
           <div className='text2 shadow-lg rounded-xl overflow-hidden'>
           <img src={image2}  className=' aspect-auto'   />
-          <h1 className='px-2 py-1 bg-white'>Mysuru</h1>
-          <p  className='px-2 pb-2 text-xs bg-white'>19, 20 & 21 March 2021 
+          <h1 className='px-2 py-1  bg-white'>Hubballi</h1>
+          <p  className='px-2 pb-2  text-xs bg-white'>19, 20 & 21 March 2021 
             <br/>Raddisan Blu Plaza Hotel Mysuru</p>
 
           </div>
         
           <div className='text2 shadow-lg rounded-xl overflow-hidden'>
-          <img  src={image3} className=' aspect-auto' />
-          <h1 className='px-2 py-1 bg-white'>Mysuru</h1>
-          <p  className='px-2 pb-2 text-xs bg-white'>19, 20 & 21 March 2021 
-            <br/>Raddisan Blu Plaza Hotel Mysuru</p>
+          <img  src={image1} className=' aspect-auto' />
+          <h1 className='px-2 py-1  bg-white'>Shivamogga</h1>
+          <p  className='px-2 pb-2   text-xs bg-white'>19, 20 & 21 March 2021 
+            <br className='pt-1' />Raddisan Blu Plaza Hotel Mysuru</p>
 
           </div>
           <div className='text2 shadow-lg rounded-xl overflow-hidden'>
-          <img  src={image1}  className=' aspect-auto' />
-          <h1 className='px-2 py-1 bg-white' >Mysuru</h1>
+          <img  src={image2}  className=' aspect-auto' />
+          <h1 className='px-2 py-1  bg-white' >Bengaluru</h1>
           <p className='px-2 pb-2 text-xs bg-white' >19, 20 & 21 March 2021 
             <br/>Raddisan Blu Plaza Hotel Mysuru</p>
 
