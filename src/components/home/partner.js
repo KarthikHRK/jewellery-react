@@ -30,13 +30,6 @@ export default function Partner() {
         centerMode: true,
         centerPadding: "100px",
         
-        
-        
-        // autoplay: true,
-        // autoplaySpeed: 2000,
-        
-      
-        
       };
 
 
@@ -50,11 +43,11 @@ export default function Partner() {
 
   <br/>
 
-<div className='text-3xl  pl-8 ' style={{color:'#530605'}}>
+<div className='text-3xl  pl-16' style={{color:'#530605'}}>
 <Title title="Our partners"/>  
 
 </div>
-<h1 className='text-sm pl-8  pt-2 leading-loose'> Our ultra-luxury private residences include villas, ski chalets and spas,
+<h1 className='text-sm pl-16  pt-2 leading-loose'> Our ultra-luxury private residences include villas, ski chalets and spas,
    as well as a 5-star superior hotel.<br/>
     Each one is chosen for its unique character
     and is designed impeccably in the signature Ultima style.<br/>
@@ -63,8 +56,6 @@ export default function Partner() {
 
 
 <div className='overflow-hidden item-center ' >
-
-
 
         <Slider {...settings} ref={slider}>
           

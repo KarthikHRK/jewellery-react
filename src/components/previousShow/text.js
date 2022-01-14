@@ -16,7 +16,7 @@ export default function Text({imageinfo,info,name }) {
              </div>
 
 
-        <div  className=' flex items-center   p-2  text-justify  text-black '>
+        <div  className=' flex items-center p-2  text-justify  text-black '>
 <div>
         <h2 className='text-2xl mb-1' style={{color:'#530605'}}>{name}</h2>
         <hr className=' border-0 h-1 bg-slate-400'/>

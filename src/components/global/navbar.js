@@ -48,6 +48,16 @@ chaildnav:[
             chaildnav:[]
                         
             },
+           
+
+
+
+
+
+
+
+
+
     ]
 
 
@@ -84,10 +94,10 @@ chaildnav:[
            {item.title}
 
           
-        { item.dropdown && <AiOutlineDown className='text-sm pt-1 font-bold ' />}
+        { item.dropdown && <AiOutlineDown className='text-sm pt-1 font-bold '/>}
    
         </Link>
-        <div style={{width:'600px'}} className={` p-3  absolute top-8 pt-3 z-20 px-4  cursor-pointer rounded  cnav  bg-white text-slate-900`}>
+        <div style={{width:'600px'}} className={` p-3  absolute top-8 pt-4 z-20 px-4  cursor-pointer rounded  cnav  bg-white text-slate-900`}>
 <div className='grid grid-cols-3 gap-x-4'>
           {
           item.chaildnav.map((citem,k)=>{

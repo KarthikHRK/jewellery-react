@@ -5,25 +5,25 @@ import Logo1 from '../../images/123456.png'
 const Footer = () => {
     return (
       <div className="" style={{background:'#530605'}} >
-        <div className="px-4 container mx-auto p-6">
-      <div className="grid gap-6 row-gap-6 mb-6 sm:grid-cols-4 lg:grid-cols-9">
+        <div className="px-8 container mx-auto pt-4 pb-2">
+      <div className="grid gap-8 row-gap-6 mb-6 sm:grid-cols-4 lg:grid-cols-9">
         <div className="sm:col-span-3">
          
           <div className="space-y-2 ">
 
-            <h1 className='text-base font-bold text-white'>THE JEWELLERY SHOW</h1>
-            <p className="text-[16px] pt-3 text-white  text-justify pr-12 ">
+            <h1 className='text-base font-bold text-white  ml-4 '>THE JEWELLERY SHOW</h1>
+            <p className="text-[16px] pt-3 text-white  text-justify ml-4 pr-6 ">
             The practical platform for display & sale of spectacular Gold, Diamond, Platinum, Gems, Pearls & Silver Jewellery.  </p>
            
           </div>
 
-          <div className='flex justify-start'>
-          <h1 className='text-lg text-white pt-2'>Organized by :</h1>
-          <img src={Logo1} className='h-16 w-28 ml-8 ' alt="jewellery"   />
+          <div className='flex justify-start gap-3 ml-4'>
+          <h1 className='text-[16px] text-white pt-2'>Organized by :</h1>
+          <img src={Logo1} className='h-16 w-28  ' alt="jewellery"   />
           </div>
         </div>
 
-        <div className="space-y-2 text-lg sm:col-span-2 ml-8">
+        <div className="space-y-2 text-lg sm:col-span-2 ml-16">
           <p className="text-base font-bold tracking-wide text-white">
           QUICK LINKS
           </p>
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
           </div>
 
-          <div className="space-y-2 text-lg sm:col-4 lg:col-span-2  ">
+          <div className="space-y-2 text-lg sm:col-4 lg:col-span-2 ml-10 ">
           <p className="text-base font-bold tracking-wide text-white">
             CONTACT INFO
           </p>
@@ -61,20 +61,20 @@ const Footer = () => {
             
            
             <p>Jagadeesh</p>  
-            <Link  to="tel:+7349479797" > 7349479797 </Link>
+            <Link  to="tel:+7349479797"> 7349479797 </Link>
             <p>Bengaluru Karnataka</p> 
 
               <Link
-              to="mailto:someone@example.com">  info@thejewelleryshow.in </Link>
+              to="mailto:someone@example.com">info@thejewelleryshow.in </Link>
           </div>
         </div>
           
         
         <div className='sm:col-span-2'   > 
-          <div className="text-base font-bold  tracking-wide text-white ">
+          <div className="text-base font-bold  tracking-wide text-white  ml-8">
           FOLLOW US ON </div>
           
-    <div className='flex justify-start gap-10'>
+    <div className='flex justify-start gap-6 ml-10'>
 
          <div className='mt-4' >
             <Link to="/"
@@ -110,14 +110,10 @@ const Footer = () => {
             
           
           </div>
-        
-      
           </div>
-      
-
         </div>
 
-      <div className="flex justify-center flex-col-reverse pt-3 pb-3 border-t lg:flex-row" style={{background:'#490303'}}>
+      <div className="flex justify-center flex-col-reverse pt-3  border-t lg:flex-row" style={{background:'#530605'}}>
         <p className="text-sm text-white text-center mx-auhref ">
           © Copyright 2021. All rights reserved. Designed By <span className=""><a to="https://1990minds.com/">1990Minds</a></span>
         </p>

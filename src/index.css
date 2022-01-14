@@ -55,5 +55,33 @@ position: relative;
  .text2:hover::before{
      opacity: 1;
  }     
-    
+
+ .coverflow__stage__14oqC {
+
+
+    height: 500px !important;
+
+
+}
+.ReactGridGallery_tile-viewport > img {
+
+    margin-left:0 !important;
+
+
+
+}
+
+.coverflow__figure__3bk_C{
+
+    box-shadow: none !important;
+    -webkit-box-reflect:unset !important;
+
+}
+
+.coverflow__text__39hqd{
+
+    background: none !important
+}
+
+
 @tailwind utilities;

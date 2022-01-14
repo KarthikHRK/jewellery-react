@@ -11,18 +11,23 @@ import Navbar from './components/global/navbar'
 import Gallery from "./pages/gallerypage";
 import Register from "./pages/contact";
 import Footer from './components/global/footer'
+import Smedia from './components/Smedia';
 
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+
+      {/* <Smedia/> */}
        <Routes>
-      <Route path="/" element={<Home />} />
+
+        <Route path="/" element={<Home />} />
         <Route path="/previews-show/:id" element={<Previousshow />} />
         <Route path="/upcoming-show" element={<Upcomingshow />} />         
         <Route path="/gallery" element={<Gallery />} /> 
         <Route path="/register" element={<Register />} /> 
+        
 
     </Routes>
     <Footer/>

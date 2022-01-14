@@ -8,12 +8,9 @@ import Slider from "react-slick";
 
 
 
-export default function Gallery({images,name }) {
+export default function Gallery({images,name}) {
 
-console.log(images);
-
-
-
+console.log(images,name);
 
 
   return (<div className="container mx-auto">
@@ -29,12 +26,8 @@ console.log(images);
         </div>
     })
 }
-
-
 </div>
-
-      
-    </div>
+ </div>
   )
 }
 

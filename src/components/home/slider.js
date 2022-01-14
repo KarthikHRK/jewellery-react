@@ -55,14 +55,11 @@ videoData.map((item, k)=>{
 }
           
 
-
-        </Slider>
-
-        <div className=' absolute top-[50%]  right-[2%] border-2 p-2 bg-white  opacity-50 rounded-xl text-4xl '>
-        <AiFillCaretRight onClick={()=>slider?.current?.slickNext()}/>
-   </div>
-
-   <div className=' absolute top-[50%]  left-[2%] border-2 p-2 bg-white  opacity-50 rounded-xl text-4xl '>
+ </Slider>
+ <div className=' absolute top-[50%]  right-[2%] border-2 p-2 bg-white  opacity-50 rounded-xl text-4xl '>
+ <AiFillCaretRight onClick={()=>slider?.current?.slickNext()}/>
+ </div>
+ <div className=' absolute top-[50%]  left-[2%] border-2 p-2 bg-white  opacity-50 rounded-xl text-4xl '>
 <AiFillCaretLeft onClick={()=>slider?.current?.slickPrev()}/>
    </div>
 

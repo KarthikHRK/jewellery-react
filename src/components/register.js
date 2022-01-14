@@ -3,7 +3,7 @@ import image1 from "../images/bgs8.jpg"
 import image2 from "../images/bgs10.png"
 import Fade from 'react-reveal/Fade';
 import Title from '../shared/title';
-
+import {FaWhatsappSquare} from 'react-icons/fa'
 
 
 const Form = () => {
@@ -33,8 +33,6 @@ const Form = () => {
 <h1 className='text-3xl pb-3  'style={{color:'#530605'}} ><Title title="Our Branding"/>  
 
 </h1>
-
-
 <p className='my-2  leading-7 '>We believe in aggressive marketing and don't leave any stone unturned. Our promotions are always led by a celebrity
      ambassador who is the talk of the town and trendy. Our celebrities are fashionable and have a great passion for 
      graceful designs. Our outdoor promotions are always larger than life with enormous hoardings in the most happening
@@ -46,29 +44,25 @@ const Form = () => {
 
 
 </div>
-
-
-
-
 </div>
     
 <div className="row col-span-2">
 
-<div className=" col-sm-6 py-sm-5 my-10  ">
+<div className=" col-sm-6 py-sm-5 my-6  ">
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffxzEXDL1Su7Ov0bja6OVYwqi8xXBdQNyYkub41SpLqr5jJA/viewform?embedded=true" width="100%" height="745" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>                       
 </div>
 
-<div className="col-sm-6 pt-3">
+<div className="col-sm-6 pt-1">
 
 
 <div className="c-text shadow-sm" id="cText">
 
 <div className=" col-12">
 
-<div className="c-text py-2 ">
- <i class="fab fa-whatsapp-square  " style={{color:"#26D266", fontSize:"40px"}}></i>
-  <a href="https://wa.me/916366771564" target="new_tab"><h5 className="text-center  " style={{color:"#8A0000"}}>Click to get a E-Invite</h5></a>
+<div className=" pb-2 flex mx-auto  justify-center gap-5">
+<FaWhatsappSquare  className='text-4xl text-green-600 ' />
+  <a href="https://wa.me/916366771564" target="new_tab"><h5  style={{color:"#8A0000"}}>Click to get a E-Invite</h5></a>
   </div>
 </div>
 

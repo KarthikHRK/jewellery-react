@@ -25,7 +25,7 @@ export default function Comingsoon() {
 
 <Fade right> 
 
-<div className= 'w-[100%]'   >
+<div className= 'w-[100%]' >
 <div className='h-[300px] 'style={{background:'#530605'}}   >   
 
 
