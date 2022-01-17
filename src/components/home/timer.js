@@ -11,12 +11,12 @@ export default function Comingsoon() {
     return (
 
        
-        <div  className='flex justify-between      '>
+        <div  className='sm:flex justify-between      '>
 
 <Fade left>      
-<div className='shadow w-[100%]  ' >
+<div className='shadow  sm:w-[100%] w-[100%]' >
 
-<img src={Image1} className='h-[300px] object-cover '  />
+<img src={Image1} className='sm:h-[300px] h-[180px] object-cover '/>
 
 </div>
 
@@ -25,8 +25,8 @@ export default function Comingsoon() {
 
 <Fade right> 
 
-<div className= 'w-[100%]' >
-<div className='h-[300px] 'style={{background:'#530605'}}   >   
+<div className= 'sm:w-[100%] w-[100%]' >
+<div className='sm:h-[300px] h-[150%]'style={{background:'#530605'}} >   
 
 
 
@@ -36,12 +36,12 @@ export default function Comingsoon() {
  
     renderer={({days,hours,minutes,seconds}) => {
         console.log();
-        return <div className='flex justify-center items-center w-full h-full text-5xl '>    
+        return <div className='sm:flex justify-center items-center w-full h-full sm:text-5xl text-xl '>    
 <div >
 
 <div>
    
-<h1 className='text-[25px]  mb-4 pl-2 text-white  '>Upcoming jewellery show </h1>
+<h1 className='text-[25px] text-center mb-4 pl-2 text-white  '>Upcoming jewellery show </h1>
 
 
     </div>
@@ -61,7 +61,7 @@ export default function Comingsoon() {
 
 <div>
 <Flip>
-        <p className=' text-[40px]  my-5 text-center text-white' >Bengaluru</p>
+        <p className=' sm:text-[40px]  my-5 text-center text-white' >Bengaluru</p>
         </Flip>
         </div>
         </div>

@@ -9,14 +9,14 @@ export default function Text({imageinfo,info,name }) {
     return (
 
 <Fade left>
-<div className=' grid grid-cols-2 gap-8 container mx-auto ' >
+<div className=' sm:grid grid-cols-2 grid-cols gap-8 container mx-auto ' >
 
-<div className='  overflow-hidden h-[300px]  border-4'>
-             <img className='h-[300px] object-cover w-full transform transition duration-500 hover:scale-110' src={imageinfo}   alt="img" />
+<div className='  overflow-hidden sm:h-[300px] h-[150px]  border-4'>
+             <img className='sm:h-[300px] h-[150px] object-cover w-full transform transition duration-500 hover:scale-110' src={imageinfo}   alt="img" />
              </div>
 
 
-        <div  className=' flex items-center p-2  text-justify  text-black '>
+        <div  className=' sm:flex flex:col items-center p-2  text-justify  text-black '>
 <div>
         <h2 className='text-2xl mb-1' style={{color:'#530605'}}>{name}</h2>
         <hr className=' border-0 h-1 bg-slate-400'/>

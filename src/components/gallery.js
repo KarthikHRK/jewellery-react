@@ -30,13 +30,7 @@ console.log(event)
   return (
     <div>
 
-{/* <div className='h-[300px] flex justify-center items-center  'style={{background:'#530605'}} >   
 
-<Fade left>
- <h1 className='text-3xl font-bold  text-yellow-600 ml-8 '>Gallery
-<hr className='w-96 block mx-auto my-2 border-0 h-1 bg-yellow-600 rounded'/></h1>
- </Fade>
- </div> */}
 
   
 <Coverflow width="960" height="600"
@@ -82,7 +76,7 @@ console.log(event)
   
   </Coverflow>
 <div className=""   style={{margin:"auto", width:"95% !important"}}>
-<div className="grid">   
+<div className="grid ">   
 <div className="  mt-2 pb-3 pt-3 grid-cols-8 mx-5 item-center "    style={{backgroundColor: "#f1f1f1"}}>
 
 <h1 style={{textAlign:"center",color:'#530605'   }} className='text-3xl font-bold pb-3'  >{data?.title}</h1>

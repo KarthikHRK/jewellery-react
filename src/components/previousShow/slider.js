@@ -30,7 +30,7 @@ export default function Home() {
     return (
 
       
-        <div className=" h-screen bg-fixed bg-cover bg-center pb-4" >
+        <div className="h-screen bg-fixed bg-cover bg-center pb-4" >
 
 <div>
         <Slider {...settings}>

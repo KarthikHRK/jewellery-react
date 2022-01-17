@@ -18,7 +18,7 @@ console.log(images,name);
 <h1 className='text-2xl mb-1' style={{color:'#530605'}}>{name}</h1>
 <br/>
 
-<div className='grid grid-cols-3 gap-2  ' >
+<div className='sm:grid grid-cols-3 grid-cols  sm:gap-2 gap-2 ' >
 {
     images.map((item,i)=>{
         return <div className=""  >

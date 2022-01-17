@@ -42,7 +42,7 @@ video1, video2, video3
 
 videoData.map((item, k)=>{
 
-    return <div className='h-screen object-cover ' key={k}>
+    return <div className='h-screen object-cover' key={k}>
 
 <video width="100%" className=' aspect-video'  controls autoPlay muted loop>
 <source src={item} type="video/mp4"/>

@@ -19,6 +19,17 @@ import {AiOutlineArrowLeft} from 'react-icons/ai'
 export default function Partner() {
 
 
+  const imgdata = [
+    image1,
+    image2,
+    image3, 
+      image4,
+         image5,
+         image6,
+         image7,
+  ]
+
+
   const slider = useRef();
   
     var settings = {
@@ -28,12 +39,43 @@ export default function Partner() {
         slidesToScroll: 1,
         className: "center",
         centerMode: true,
-        centerPadding: "100px",
+        centerPadding: "30px",
+
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+           
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+
+
+
+
         
       };
 
 
-      console.log(slider);
+      console.log({slider});
 
     return (
         
@@ -42,63 +84,46 @@ export default function Partner() {
 <div className=' relative'style={{backgroundColor:'#E5E5E5'}} >
 
   <br/>
-
-<div className='text-3xl  pl-16' style={{color:'#530605'}}>
+<div className='px-8 py-4'>
+<div className='text-3xl  ' style={{color:'#530605'}}>
 <Title title="Our partners"/>  
 
 </div>
-<h1 className='text-sm pl-16  pt-2 leading-loose'> Our ultra-luxury private residences include villas, ski chalets and spas,
+<h1 className='sm:text-sm text-sm  w-full  pt-2 leading-loose'> Our ultra-luxury private residences include villas, ski chalets and spas,
    as well as a 5-star superior hotel.<br/>
     Each one is chosen for its unique character
     and is designed impeccably in the signature Ultima style.<br/>
    Browse our growing portfolio of destinations below.</h1>
 
+</div>
 
-
-<div className='overflow-hidden item-center ' >
+<div className='sm:overflow-hidden item-center ' >
 
         <Slider {...settings} ref={slider}>
           
-          <div  className='  p-10' > 
-          <img className='  shadow transform transition duration-500 hover:scale-110 ' src={image1}  />
+
+          {
+imgdata.map((item, i)=>{
+
+  return <div key={i} className='p-1 w-full h-full sm:p-10' > 
+          <img className='  shadow transform transition duration-500 hover:scale-110 ' src={item}  />
 
           </div>
-          <div    className='  p-10' > 
-          <img className=' shadow transform transition duration-500 hover:scale-110 ' src={image2}   />
+})
 
-          </div>
-          <div  className='  p-10' > 
-          <img className='  shadow transform transition duration-500 hover:scale-110 ' src={image3}  />
-
-          </div>
-          <div  className='  p-10'> 
-          <img className='  shadow transform transition duration-500 hover:scale-110 ' src={image4}   />
-
-          </div>
-        
-          <div  className='  p-10' > 
-          <img className=' shadow transform transition duration-500 hover:scale-110 ' src={image5}   />
-
-          </div>
-
-          <div  className=' p-10'> 
-          <img className=' shadow transform transition duration-500 hover:scale-110 ' src={image6}  />
-
-          </div>
-          <div  className='  p-10'> 
-          <img className=' shadow transform transition duration-500 hover:scale-110' src={image7}  />
-
-          </div>
+          }
+          
+       
 
       
           </Slider>
 
       <div >
-<AiOutlineArrowRight onClick={()=>slider?.current?.slickNext()} className=' bottom-40 right-20 absolute bg-pink-200  p-4 text-5xl rounded-r-full transform transition duration-500 hover:scale-110'/>
+<AiOutlineArrowRight onClick={()=>slider?.current?.slickNext()} className='bottom-10 sm:bottom-40 right-8 sm:right-20 absolute bg-pink-200  p-4 text-5xl rounded-r-full transform transition duration-500 hover:scale-110'/>
 </div>
 
 <div>
-<AiOutlineArrowLeft onClick={()=>slider?.current?.slickPrev()} className=' bottom-40 right-32  absolute bg-pink-200  p-4 text-5xl rounded-l-full transform transition duration-500 hover:scale-110'/>
+<AiOutlineArrowLeft onClick={()=>slider?.current?.slickPrev()} className='bottom-10 sm:bottom-40 right-20 sm:right-32  absolute bg-pink-200  p-4 text-5xl rounded-l-full transform transition duration-500 hover:scale-110'/>
 </div>
    
       </div>

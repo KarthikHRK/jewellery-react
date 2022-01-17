@@ -12,23 +12,23 @@ export default function Recentshow() {
        <div className=''>
 
 
-<div className='text-3xl my-10 hover:text-amber-500 text-center'  style={{color:'#530605'}}>
+<div className='sm:text-3xl my-10 hover:text-amber-500 text-center'  style={{color:'#530605'}}>
 <Title title="Recent events" />
 </div>
 
 
 
-            <div className='flex justify-center gap-10 container mx-auto' >
+            <div className='sm:flex  flex:col  justify-center sm:gap-10 gap-4 container mx-auto' >
 
-          <div  className='text2 shadow-lg rounded-xl overflow-hidden ' >
+          <div  className='text2  shadow-lg rounded-xl overflow-hidden sm:my-4 my-2' >
 
-          <img  src={image1} className=' aspect-auto'   />
+          <img  src={image1} className=' aspect-auto '   />
           <h1 className='px-2 py-1  bg-white'>Mysuru</h1>
           <p  className='px-2 pb-2   text-xs bg-white'>19, 20 & 21 March 2021 
             <br/>Raddisan Blu Plaza Hotel Mysuru</p>
 
           </div>
-          <div className='text2 shadow-lg rounded-xl overflow-hidden'>
+          <div className='text2 shadow-lg rounded-xl overflow-hidden sm:my-4 my-2'>
           <img src={image2}  className=' aspect-auto'   />
           <h1 className='px-2 py-1  bg-white'>Hubballi</h1>
           <p  className='px-2 pb-2  text-xs bg-white'>19, 20 & 21 March 2021 
@@ -36,14 +36,14 @@ export default function Recentshow() {
 
           </div>
         
-          <div className='text2 shadow-lg rounded-xl overflow-hidden'>
+          <div className='text2 shadow-lg rounded-xl overflow-hidden sm:my-4 my-2'>
           <img  src={image1} className=' aspect-auto' />
           <h1 className='px-2 py-1  bg-white'>Shivamogga</h1>
           <p  className='px-2 pb-2   text-xs bg-white'>19, 20 & 21 March 2021 
             <br className='pt-1' />Raddisan Blu Plaza Hotel Mysuru</p>
 
           </div>
-          <div className='text2 shadow-lg rounded-xl overflow-hidden'>
+          <div className='text2 shadow-lg rounded-xl overflow-hidden sm:my-4 my-2'>
           <img  src={image2}  className=' aspect-auto' />
           <h1 className='px-2 py-1  bg-white' >Bengaluru</h1>
           <p className='px-2 pb-2 text-xs bg-white' >19, 20 & 21 March 2021 

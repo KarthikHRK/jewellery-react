@@ -12,17 +12,17 @@ const Form = () => {
 
 <div className= '' style={{ width:'100%',    }}  >
 
-<div className='h-96  opacity-90  bg-no-repeat w-full flex justify-center items-center 'style= {{backgroundImage:`url('${image2}')`} }    >
+<div className='sm:h-96 h-52 opacity-90  bg-no-repeat sm:w-full w-full flex justify-center items-center 'style= {{backgroundImage:`url('${image2}')`} }    >
 
 <Fade left>
-<h1 className='text-4xl font-bold  text-yellow-600 ml-8   '>Register to get free pass
+<h1 className='sm:text-4xl text-xl font-bold  text-yellow-600 ml-8   '>Register to get free pass
 <hr className='w-[100] block mx-auto my-2 border-0 h-1 bg-yellow-600 rounded'/></h1>
 </Fade>
 
 </div>
 
 
-<div className='grid grid-cols-5 px-5 gap-6'>  
+<div className='sm:grid grid-cols-5 grid:cols px-3 gap-6'>  
 
 
 
@@ -30,10 +30,10 @@ const Form = () => {
 
 <img src={image1} />
 <div className='w-[100%] text-justify my-10' >
-<h1 className='text-3xl pb-3  'style={{color:'#530605'}} ><Title title="Our Branding"/>  
+<h1 className='sm:text-3xl text-xl pb-3 sm:pl-4 pl-2 'style={{color:'#530605'}} ><Title title="Our Branding"/>  
 
 </h1>
-<p className='my-2  leading-7 '>We believe in aggressive marketing and don't leave any stone unturned. Our promotions are always led by a celebrity
+<p className='sm:my-2 my-2 mx-6  leading-7 '>We believe in aggressive marketing and don't leave any stone unturned. Our promotions are always led by a celebrity
      ambassador who is the talk of the town and trendy. Our celebrities are fashionable and have a great passion for 
      graceful designs. Our outdoor promotions are always larger than life with enormous hoardings in the most happening
       place of the town. Our media coverage is done by all the premium news channels, FM radio and high traffic social

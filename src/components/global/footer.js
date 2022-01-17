@@ -17,13 +17,13 @@ const Footer = () => {
            
           </div>
 
-          <div className='flex justify-start gap-3 ml-4'>
+          <div className='flex   justify-start gap-3 ml-4'>
           <h1 className='text-[16px] text-white pt-2'>Organized by :</h1>
           <img src={Logo1} className='h-16 w-28  ' alt="jewellery"   />
           </div>
         </div>
 
-        <div className="space-y-2 text-lg sm:col-span-2 ml-16">
+        <div className="space-y-2 text-lg sm:col-span-2 sm:ml-16 ml-3">
           <p className="text-base font-bold tracking-wide text-white">
           QUICK LINKS
           </p>
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
           </div>
 
-          <div className="space-y-2 text-lg sm:col-4 lg:col-span-2 ml-10 ">
+          <div className="space-y-2 text-lg sm:col-4 lg:col-span-2 sm:ml-10 ml-3 ">
           <p className="text-base font-bold tracking-wide text-white">
             CONTACT INFO
           </p>
@@ -71,10 +71,10 @@ const Footer = () => {
           
         
         <div className='sm:col-span-2'   > 
-          <div className="text-base font-bold  tracking-wide text-white  ml-8">
+          <div className="text-base font-bold  tracking-wide text-white  sm:ml-8 ml-3">
           FOLLOW US ON </div>
           
-    <div className='flex justify-start gap-6 ml-10'>
+    <div className='flex justify-start gap-6 sm:ml-10 ml-3'>
 
          <div className='mt-4' >
             <Link to="/"
